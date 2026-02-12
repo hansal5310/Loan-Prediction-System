@@ -196,17 +196,17 @@ with tab2:
             sql_script = """CREATE TABLE loan_data (
 Current Loan Amount INTEGER,
 Term INTEGER,
-Credit_Score INTEGER,
-Annual_Income INTEGER,
-Home_Ownership INTEGER,
+Credit Score INTEGER,
+Annual Income INTEGER,
+Home Ownership INTEGER,
 Purpose INTEGER,
-Monthly_Debt REAL,
-Years_of_Credit_History INTEGER,
-Months_since_last_delinquent INTEGER,
-Number_of_Open_Accounts INTEGER,
-Number_of_Credit_Problems INTEGER,
-Current_Credit_Balance INTEGER,
-Maximum_Open_Credit INTEGER
+Monthly Debt REAL,
+Years of Credit History INTEGER,
+Months since last delinquent INTEGER,
+Number of Open Accounts INTEGER,
+Number of Credit Problems INTEGER,
+Current Credit Balance INTEGER,
+Maximum Open Credit INTEGER
 );
 
 INSERT INTO loan_data VALUES
